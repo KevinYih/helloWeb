@@ -29,7 +29,7 @@ body {
 /* Styling links which has a href attribute */
 .more-info:link,
 .more-info:visited {
-  color: black;
+  color: #000;
 }
 
 .more-info:hover,
