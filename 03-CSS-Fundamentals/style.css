@@ -12,14 +12,16 @@ body {
   font-family: sans-serif;
 
   border-top: #1098ad 10px solid;
+  position: relative;
 }
 
 .container {
-  width: 700px;
-  /* margin-left: auto;
-  margin-right: auto; */
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 
-  margin: 0 atuto;
+  /* margin: 0 atuto; */
+  position: relative;
 }
 
 .main-header {
@@ -101,7 +103,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
-  display: inline;
+  /* display: inline; */
 }
 
 li:last_child {
@@ -184,7 +186,6 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
-  margin: 100px;
 }
 
 nav a:link {
@@ -209,8 +210,8 @@ button {
   cursor: pointer;
 
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 50px;
+  right: 50px;
 }
 /* resolving conflicts */
 /* #Copyright {
