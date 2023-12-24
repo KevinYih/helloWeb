@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 .product {
   border: black 4px solid;
 
-  width: 825px;
+  width: 800px;
   margin: 50px auto;
 }
 
@@ -53,7 +54,8 @@ h2::before {
   font-size: 12px;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  float: right;
 }
 
 /* Styling links which has a href attribute */
@@ -128,4 +130,23 @@ h2::before {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+.div0 {
+  background-color: red;
+  float: left;
+  width: 240px;
+  margin-right: 40px;
+}
+
+.div1 {
+  background-color: yellow;
+  float: left;
+  width: 240px;
+}
+
+.div2 {
+  background-color: green;
+  float: right;
+  width: 240px;
 }
