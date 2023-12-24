@@ -55,15 +55,18 @@ h2::before {
   font-size: 12px;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
   margin-top: 10px;
   float: right;
 }
 
 .infoo {
   clear: both;
+  margin-bottom: 15px;
 }
 
 /* Styling links which has a href attribute */
+
 .more-info:link,
 .more-info:visited {
   color: #000;
@@ -106,7 +109,7 @@ h2::before {
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .details-list {
   list-style: square;
@@ -138,19 +141,19 @@ h2::before {
 }
 
 .div0 {
-  background-color: red;
+  /* background-color: red; */
   float: left;
   margin-right: 40px;
 }
 
 .div1 {
-  background-color: yellow;
+  /* background-color: yellow; */
   float: left;
   width: 243px;
 }
 
 .div2 {
-  background-color: green;
+  /* background-color: green; */
   float: right;
   width: 243px;
 }
