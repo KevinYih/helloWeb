@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -46,6 +47,7 @@ h2::before {
 
 .price {
   font-size: 24px;
+  float: left;
 }
 
 .shipping {
@@ -53,7 +55,12 @@ h2::before {
   font-size: 12px;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  float: right;
+}
+
+.infoo {
+  clear: both;
 }
 
 /* Styling links which has a href attribute */
@@ -128,4 +135,22 @@ h2::before {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+.div0 {
+  background-color: red;
+  float: left;
+  margin-right: 40px;
+}
+
+.div1 {
+  background-color: yellow;
+  float: left;
+  width: 243px;
+}
+
+.div2 {
+  background-color: green;
+  float: right;
+  width: 243px;
 }
