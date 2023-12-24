@@ -2,6 +2,7 @@
   /* color: #1098ad; */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* override the default value */
 
@@ -50,9 +51,10 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /*   */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  width: 300px;
+  box-sizing: border-box;
+  /* box-sizing: content-box;  this is default setting */
 }
 
 /* SMALLER ELEMENTS  */
@@ -86,6 +88,7 @@ h4 {
 
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -138,6 +141,7 @@ li:last_child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 body {
@@ -294,7 +298,7 @@ article {
 
 aside {
   /* background-color: green; */
-  width: 300px;
+  /* width: 300px; */
   float: right;
 }
 
